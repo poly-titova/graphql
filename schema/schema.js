@@ -2,6 +2,26 @@ const graphql = require('graphql');
 
 const { GraphQLObjectType, GraphQLString, GraphQLSchema, GraphQLID, GraphQLInt, GraphQLList } = graphql;
 
+/*
+const directorJson = [
+  { "name": "Quentin Tarantino", "age": 55 },
+  { "name": "Michael Radford", "age": 72 },
+  { "name": "James McTeigue", "age": 51 },
+  { "name": "Guy Ritchie", "age": 50 },
+];
+
+const moviesJson = [
+  { "name": "Pulp Fiction", "genre": "Crime", "directorId": "62456228c90c886c32813325" },
+  { "name": "1984", "genre": "Sci-Fi", "directorId": "62456228c90c886c32813326" },
+  { "name": "V for vendetta", "genre": "Sci-Fi-Triller", "directorId": "62456228c90c886c32813327" },
+  { "name": "Snatch", "genre": "Crime-Comedy", "directorId": "62456228c90c886c32813328" },
+  { "name": "Reservoir Dogs", "genre": "Crime", "directorId": "62456228c90c886c32813325" },
+  { "name": "The Hateful Eight", "genre": "Crime", "directorId": "62456228c90c886c32813325" },
+  { "name": "Inglourious Basterds", "genre": "Crime", "directorId": "62456228c90c886c32813325" },
+  { "name": "Lock, Stock and Two Smoking Barrels", "genre": "Crime-Comedy", "directorId": "62456228c90c886c32813328" },
+];
+*/
+
 // Набор фильмов
 const movies = [
   { id: '1', name: 'Pulp Fiction', genre: 'Crime', directorId: '1' },
